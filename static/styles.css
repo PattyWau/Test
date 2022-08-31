@@ -24,8 +24,6 @@ nav img {
 @media (max-width: 991px){
 
     .banner {
-        max-height: 400px;
-        width: 100%;
         background-repeat:no-repeat;
         -webkit-background-size:contain;
         -moz-background-size:contain;
