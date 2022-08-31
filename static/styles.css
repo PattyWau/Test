@@ -22,8 +22,9 @@ nav img {
 }
 
 /*about*/
-#about .heading {
+.section-heading {
     text-align: center;
+    margin: 50px;
 }
 
 
@@ -40,19 +41,29 @@ nav img {
         -moz-background-size:cover;
         -o-background-size:cover;
         background-size:cover;
-        background-position: inherit;
+        background-position: initial;
         margin-bottom: 100px;
+        padding: 50px;
     }
 
     nav i {
-        font-size: 40px;
-        text-align: right;
+        font-size: 50px;
+        color: #53A548;
     }
+    nav button {
+        position: fixed;
+        left: 800px;
+    }
+    .navbar-toggler {
+        top: 85px;
+    }
+
     nav img {
-        max-width: 150px;
-        max-height: 150px;
+        max-width: 200px;
+        max-height: 200px;
     }
     .navbar-brand {
-        font-size: 25px;
+        font-size: 30px;
+        text-wrap: initial;
     }
 }
