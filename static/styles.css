@@ -1,0 +1,36 @@
+/*header*/
+
+.container-fluid {
+    --bs-gutter-x: 0rem;
+    padding: 0;
+}
+
+.banner {
+    position: relative;
+    background-size: contain;
+    height: 650px;
+    background: url("../assets/Elly's Eats Banner.png") no-repeat scroll center center;
+    font-size: 0;
+}
+
+nav img {
+    max-width: 80px;
+    max-height: 80px;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+
+@media (max-width: 991px){
+
+    .banner {
+        max-height: 400px;
+        width: 100%;
+        background-repeat:no-repeat;
+        -webkit-background-size:contain;
+        -moz-background-size:contain;
+        -o-background-size:contain;
+        background-size:contain;
+        background-position: inherit;
+    }
+}
