@@ -33,13 +33,6 @@ nav img {
     color: black;
 }
 
-
-/*about*/
-.section-heading {
-    text-align: center;
-    margin: 50px;
-}
-
 .bdnav {
     background-color: #fff;
     position: sticky;
@@ -48,11 +41,45 @@ nav img {
     top: 0px;
 }
 
+/*about*/
+.section-heading {
+    text-align: center;
+    margin: 50px;
+}
+
+.section-heading {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+}
+
+#about img {
+    position: relative;
+    max-width: 500px;
+    border: solid 2px #53A548;
+}
+#about {
+    padding: 50px;
+    margin-bottom: 100px;
+}
+.about-us-txt {
+    font-size: 30px;
+
+}
+
+/*menu*/
+
+#menu {
+    background-color: #53A548;
+    padding: 100px 0 150px 0;
+}
 
 
 
 
-@media (max-width: 991px){
+/*responsiveness*/
+@media (max-width: 992px){
 
     .banner {
         background-repeat:no-repeat;
@@ -60,7 +87,7 @@ nav img {
         -moz-background-size:cover;
         -o-background-size:cover;
         background-size:cover;
-        background-position: initial;
+        background-position: inherit;
         margin-bottom: 100px;
         padding: 50px;
     }
@@ -102,4 +129,18 @@ nav img {
         font-size: 30px;
         text-wrap: initial;
     }
+    /*about*/
+    #about .img {
+        position: relative;
+        align-self: center;
+    }
 }
+
+
+/*@media (min-width: 576px) {*/
+/*    .container-sm, .container {*/
+/*        max-width: 540px;*/
+/*    }*/
+/*}*/
+
+
